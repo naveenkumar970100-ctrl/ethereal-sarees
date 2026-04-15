@@ -10,6 +10,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import sareeMaroon from "@/assets/saree-maroon.jpg";
+import sareeBlue from "@/assets/saree-blue.jpg";
+import sareeGreen from "@/assets/saree-green.jpg";
+import sareePink from "@/assets/saree-pink.jpg";
+import sareePurple from "@/assets/saree-purple.jpg";
+import sareeOrange from "@/assets/saree-orange.jpg";
+import sareeYellow from "@/assets/saree-yellow.jpg";
 
 const Collections = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -25,14 +32,14 @@ const Collections = () => {
   ];
 
   const products = [
-    { id: 1, name: "Royal Banarasi Silk", category: "silk", price: 12999, image: "/src/assets/saree-maroon.jpg", badge: "Bestseller" },
-    { id: 2, name: "Kanjivaram Gold", category: "silk", price: 15999, image: "/src/assets/saree-blue.jpg", badge: "Premium" },
-    { id: 3, name: "Cotton Elegance", category: "cotton", price: 3999, image: "/src/assets/saree-green.jpg", badge: "New" },
-    { id: 4, name: "Designer Embroidered", category: "designer", price: 8999, image: "/src/assets/saree-pink.jpg", badge: "" },
-    { id: 5, name: "Traditional Patola", category: "traditional", price: 11999, image: "/src/assets/saree-purple.jpg", badge: "Limited" },
-    { id: 6, name: "Party Glamour", category: "party", price: 7999, image: "/src/assets/saree-orange.jpg", badge: "" },
-    { id: 7, name: "Silk Heritage", category: "silk", price: 13999, image: "/src/assets/saree-yellow.jpg", badge: "Classic" },
-    { id: 8, name: "Cotton Comfort", category: "cotton", price: 2999, image: "/src/assets/saree-blue.jpg", badge: "" },
+    { id: 1, name: "Royal Banarasi Silk", category: "silk", price: 12999, image: sareeMaroon, badge: "Bestseller" },
+    { id: 2, name: "Kanjivaram Gold", category: "silk", price: 15999, image: sareeBlue, badge: "Premium" },
+    { id: 3, name: "Cotton Elegance", category: "cotton", price: 3999, image: sareeGreen, badge: "New" },
+    { id: 4, name: "Designer Embroidered", category: "designer", price: 8999, image: sareePink, badge: "" },
+    { id: 5, name: "Traditional Patola", category: "traditional", price: 11999, image: sareePurple, badge: "Limited" },
+    { id: 6, name: "Party Glamour", category: "party", price: 7999, image: sareeOrange, badge: "" },
+    { id: 7, name: "Silk Heritage", category: "silk", price: 13999, image: sareeYellow, badge: "Classic" },
+    { id: 8, name: "Cotton Comfort", category: "cotton", price: 2999, image: sareeBlue, badge: "" },
   ];
 
   const filteredProducts = selectedCategory === "all" 

@@ -3,6 +3,12 @@ import Footer from "@/components/Footer";
 import { ShoppingBag, Heart, Sparkles, Crown, Gift } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import sareeMaroon from "@/assets/saree-maroon.jpg";
+import sareePink from "@/assets/saree-pink.jpg";
+import sareePurple from "@/assets/saree-purple.jpg";
+import sareeOrange from "@/assets/saree-orange.jpg";
+import sareeYellow from "@/assets/saree-yellow.jpg";
+import heroBridal from "@/assets/hero-bridal.jpg";
 
 const Bridal = () => {
   const bridalCollection = [
@@ -11,7 +17,7 @@ const Bridal = () => {
       name: "Royal Banarasi Bridal", 
       price: 45999, 
       originalPrice: 55999,
-      image: "/src/assets/saree-maroon.jpg", 
+      image: sareeMaroon, 
       category: "Banarasi",
       badge: "Bestseller"
     },
@@ -20,7 +26,7 @@ const Bridal = () => {
       name: "Kanjivaram Grand", 
       price: 52999, 
       originalPrice: 65999,
-      image: "/src/assets/saree-red.jpg", 
+      image: heroBridal, 
       category: "Kanjivaram",
       badge: "Premium"
     },
@@ -29,7 +35,7 @@ const Bridal = () => {
       name: "Patani Heritage", 
       price: 38999, 
       originalPrice: 48999,
-      image: "/src/assets/saree-pink.jpg", 
+      image: sareePink, 
       category: "Patani",
       badge: "Traditional"
     },
@@ -38,7 +44,7 @@ const Bridal = () => {
       name: "Designer Embroidered", 
       price: 42999, 
       originalPrice: 52999,
-      image: "/src/assets/saree-purple.jpg", 
+      image: sareePurple, 
       category: "Designer",
       badge: "Exclusive"
     },
@@ -47,7 +53,7 @@ const Bridal = () => {
       name: "Silk Wedding Special", 
       price: 48999, 
       originalPrice: 59999,
-      image: "/src/assets/saree-orange.jpg", 
+      image: sareeOrange, 
       category: "Silk",
       badge: "New"
     },
@@ -56,7 +62,7 @@ const Bridal = () => {
       name: "Golden Zari Work", 
       price: 55999, 
       originalPrice: 69999,
-      image: "/src/assets/saree-yellow.jpg", 
+      image: sareeYellow, 
       category: "Zari",
       badge: "Luxury"
     },

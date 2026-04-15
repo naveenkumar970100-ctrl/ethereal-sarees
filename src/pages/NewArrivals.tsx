@@ -3,6 +3,13 @@ import Footer from "@/components/Footer";
 import { ShoppingBag, Heart, Sparkles, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import sareePink from "@/assets/saree-pink.jpg";
+import sareeGreen from "@/assets/saree-green.jpg";
+import sareeBlue from "@/assets/saree-blue.jpg";
+import sareeOrange from "@/assets/saree-orange.jpg";
+import sareePurple from "@/assets/saree-purple.jpg";
+import sareeYellow from "@/assets/saree-yellow.jpg";
+import sareeMaroon from "@/assets/saree-maroon.jpg";
 
 const NewArrivals = () => {
   const newArrivals = [
@@ -11,7 +18,7 @@ const NewArrivals = () => {
       name: "Celestial Silk", 
       price: 14999, 
       originalPrice: 18999,
-      image: "/src/assets/saree-pink.jpg", 
+      image: sareePink, 
       tag: "Just In",
       days: 2
     },
@@ -20,7 +27,7 @@ const NewArrivals = () => {
       name: "Emerald Dreams", 
       price: 11999, 
       originalPrice: 14999,
-      image: "/src/assets/saree-green.jpg", 
+      image: sareeGreen, 
       tag: "New",
       days: 5
     },
@@ -29,7 +36,7 @@ const NewArrivals = () => {
       name: "Royal Indigo", 
       price: 13499, 
       originalPrice: 16999,
-      image: "/src/assets/saree-blue.jpg", 
+      image: sareeBlue, 
       tag: "Just In",
       days: 1
     },
@@ -38,7 +45,7 @@ const NewArrivals = () => {
       name: "Sunset Glow", 
       price: 9999, 
       originalPrice: 12999,
-      image: "/src/assets/saree-orange.jpg", 
+      image: sareeOrange, 
       tag: "New",
       days: 7
     },
@@ -47,7 +54,7 @@ const NewArrivals = () => {
       name: "Lavender Luxe", 
       price: 15999, 
       originalPrice: 19999,
-      image: "/src/assets/saree-purple.jpg", 
+      image: sareePurple, 
       tag: "Just In",
       days: 3
     },
@@ -56,7 +63,7 @@ const NewArrivals = () => {
       name: "Golden Hour", 
       price: 12499, 
       originalPrice: 15499,
-      image: "/src/assets/saree-yellow.jpg", 
+      image: sareeYellow, 
       tag: "New",
       days: 4
     },
@@ -65,7 +72,7 @@ const NewArrivals = () => {
       name: "Crimson Elegance", 
       price: 16999, 
       originalPrice: 20999,
-      image: "/src/assets/saree-maroon.jpg", 
+      image: sareeMaroon, 
       tag: "Just In",
       days: 1
     },
@@ -74,7 +81,7 @@ const NewArrivals = () => {
       name: "Midnight Silk", 
       price: 13999, 
       originalPrice: 17499,
-      image: "/src/assets/saree-blue.jpg", 
+      image: sareeBlue, 
       tag: "New",
       days: 6
     },
