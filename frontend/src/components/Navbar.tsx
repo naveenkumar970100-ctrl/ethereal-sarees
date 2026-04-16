@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="#" className="flex flex-col items-center">
           <span className="font-heading text-2xl md:text-3xl font-bold tracking-wider text-gold-dark">
-            NARSINGH
+            MYSORE
           </span>
           <span className="text-[10px] md:text-xs tracking-[0.4em] text-muted-foreground font-body uppercase">
             Sarees

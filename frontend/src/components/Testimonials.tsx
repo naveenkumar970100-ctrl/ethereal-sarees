@@ -5,19 +5,19 @@ const testimonials = [
   {
     name: "Priya Sharma",
     location: "Mumbai",
-    text: "The Banarasi silk saree I purchased was absolutely stunning. The zari work is exquisite and the fabric quality is unmatched. Narsingh Sarees has a customer for life!",
+    text: "The Banarasi silk saree I purchased was absolutely stunning. The zari work is exquisite and the fabric quality is unmatched. MysoreSarees has a customer for life!",
     rating: 5,
   },
   {
     name: "Ananya Reddy",
     location: "Hyderabad",
-    text: "My bridal saree from Narsingh was the highlight of my wedding. Everyone couldn't stop complimenting the intricate work. Thank you for making my day special!",
+    text: "My bridal saree from MysoreSarees was the highlight of my wedding. Everyone couldn't stop complimenting the intricate work. Thank you for making my day special!",
     rating: 5,
   },
   {
     name: "Meera Patel",
     location: "Ahmedabad",
-    text: "I've been buying sarees from Narsingh for years. Their collection is always fresh, authentic, and the customer service is exceptional. Highly recommended!",
+    text: "I've been buying sarees from MysoreSarees for years. Their collection is always fresh, authentic, and the customer service is exceptional. Highly recommended!",
     rating: 5,
   },
 ];

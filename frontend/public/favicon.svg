@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background circle with rich maroon/gold gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7B1C2E"/>
+      <stop offset="100%" stop-color="#C8922A"/>
+    </linearGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F5D78E"/>
+      <stop offset="100%" stop-color="#E8A020"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="url(#bg)"/>
+
+  <!-- Stylised saree drape / flowing fabric shape -->
+  <!-- Main drape arc -->
+  <path d="M14 48 Q20 20 38 14 Q50 10 52 22 Q54 34 44 42 Q34 50 14 48Z"
+        fill="url(#silk)" opacity="0.92"/>
+
+  <!-- Inner fold / pallu detail -->
+  <path d="M22 46 Q28 28 42 20 Q50 16 50 26 Q50 36 40 42 Q30 48 22 46Z"
+        fill="#7B1C2E" opacity="0.35"/>
+
+  <!-- Zari border line along drape edge -->
+  <path d="M14 48 Q20 20 38 14 Q50 10 52 22"
+        stroke="#F5D78E" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Small decorative bindi dot at top -->
+  <circle cx="38" cy="14" r="2.5" fill="#F5D78E"/>
+
+  <!-- Letter M monogram -->
+  <text x="16" y="44" font-family="Georgia, serif" font-size="18" font-weight="bold"
+        fill="#FFFFFF" opacity="0.9">M</text>
+</svg>

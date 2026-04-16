@@ -30,10 +30,10 @@ const About = () => {
   ];
 
   const team = [
-    { name: "Rajesh Narsingh", role: "Founder & Master Weaver", image: "👨‍🎨" },
-    { name: "Priya Narsingh", role: "Creative Director", image: "👩‍🎨" },
-    { name: "Amit Narsingh", role: "Head of Operations", image: "👨‍💼" },
-    { name: "Sneha Narsingh", role: "Design Lead", image: "👩‍💼" },
+    { name: "Rajesh Mysore", role: "Founder & Master Weaver", image: "👨‍🎨" },
+    { name: "Priya Mysore", role: "Creative Director", image: "👩‍🎨" },
+    { name: "Amit Mysore", role: "Head of Operations", image: "👨‍💼" },
+    { name: "Sneha Mysore", role: "Design Lead", image: "👩‍💼" },
   ];
 
   return (
@@ -68,12 +68,12 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h2 className="font-heading text-3xl font-bold mb-6 text-primary">
-              The Narsingh Legacy
+              The MysoreSarees Legacy
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Founded in 1999, Narsingh Sarees began as a small weaving unit in the heart of India's textile country. 
-                Our founder, Rajesh Narsingh, inherited the art of weaving from his father and transformed it into a 
+                Founded in 1999, MysoreSarees began as a small weaving unit in the heart of India's textile country. 
+                Our founder, Rajesh Mysore, inherited the art of weaving from his father and transformed it into a 
                 celebrated brand known for quality and craftsmanship.
               </p>
               <p>
@@ -131,7 +131,7 @@ const About = () => {
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-primary to-gold rounded-xl p-8 md:p-12 text-white text-center">
           <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
-            Experience the Narsingh Difference
+            Experience the MysoreSarees Difference
           </h2>
           <p className="text-white/90 mb-6 max-w-2xl mx-auto">
             Visit our store or browse our collection online. Every saree comes with a certificate of authenticity and lifetime care support.

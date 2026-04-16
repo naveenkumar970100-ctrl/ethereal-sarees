@@ -37,8 +37,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["info@narsinghsarees.com", "support@narsinghsarees.com"],
-      link: "mailto:info@narsinghsarees.com"
+      details: ["info@mysoresarees.com", "support@mysoresarees.com"],
+      link: "mailto:info@mysoresarees.com"
     },
     {
       icon: MapPin,
@@ -199,7 +199,7 @@ const Contact = () => {
             <div className="text-center">
               <MapPin className="mx-auto mb-4 text-primary" size={48} />
               <p className="font-heading text-xl font-semibold text-primary mb-2">
-                Narsingh Sarees - Main Store
+                MysoreSarees - Main Store
               </p>
               <p className="text-muted-foreground">
                 123 Textile Market, Mumbai, Maharashtra 400001

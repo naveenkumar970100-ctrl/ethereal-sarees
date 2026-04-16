@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
         <div>
-          <h3 className="font-heading text-2xl font-bold text-gold mb-4">NARSINGH</h3>
+          <h3 className="font-heading text-2xl font-bold text-gold mb-4">MYSORE SAREES</h3>
           <p className="font-body text-sm text-cream/70 leading-relaxed mb-6">
             Crafting timeless sarees since 1985. We bring you the finest handwoven silk sarees from the looms of India's most celebrated weavers.
           </p>
@@ -53,7 +53,7 @@ const Footer = () => (
             </div>
             <div className="flex items-center gap-3">
               <Mail size={18} className="text-gold flex-shrink-0" />
-              <p className="font-body text-sm text-cream/60">info@narsinghsarees.com</p>
+              <p className="font-body text-sm text-cream/60">info@mysoresarees.com</p>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ const Footer = () => (
 
       <div className="section-divider mb-8" />
       <p className="font-body text-center text-sm text-cream/40">
-        © 2025 Narsingh Sarees. All rights reserved. Handcrafted with ❤️ in India.
+        © 2025 MysoreSarees. All rights reserved. Handcrafted with ❤️ in India.
       </p>
     </div>
   </footer>
